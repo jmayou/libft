@@ -12,14 +12,13 @@ RM = rm -rf
 
 AR = ar -rc
 
-
 all : $(NAME)
 
 $(NAME) : $(OBJ)
 	$(AR) $(NAME) $(OBJ)
 
 clean :
-	$(RM) $(OBJ)
+	$(RM) $(OBJ) 
 
 fclean : clean
 	$(RM) $(NAME)

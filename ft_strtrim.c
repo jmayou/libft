@@ -46,3 +46,4 @@ char	*ft_strtrim(char const *s1, char const *set)
 //  printf("%s\n", ft_strtrim("mayouksszssma","ofg"));
 //  return (0);
 //}
+// msa7 kelma ->xz<-

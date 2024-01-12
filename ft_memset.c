@@ -19,21 +19,25 @@ void	*ft_memset(void *b, int c, size_t len)
 	i = 0;
 	while (i < len)
 	{
-		((char *)b)[i] = c;
+		((char *)b)[i] = (char)c;
 		i++;
 	}
 	return (b);
 }
-//
 //#include <stdio.h>
 //#include <string.h>
-//
 // int main()
 //{
-//    char buffer[6] = "jamila";
-//    int c = 'v';
-//
-//       ft_memset(buffer, c , 3); // kol bit ki3mrb c
-//		printf ("%s\n", buffer);
-//       return (0);
+//  char buffer[]= "jamila";
+//  int c = 'v';
+//	int buffer[] = {5000012, 15, 44, 2};
+//	int i = 0;
+// ft_memset(buffer, c , 5*sizeof(char));
+// ft_memset(buffer+3, 0b11111111 , 3 *sizeof(char));
+// while ( i < 4)
+// {
+//	printf ("%s\n", buffer);
+// 	i++;
+// }
+//  return (0);
 //}
