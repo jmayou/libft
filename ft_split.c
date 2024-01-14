@@ -21,6 +21,8 @@ static int	checkword(const char *str, char c)
 	i = 0;
 	word = 0;
 	what = 0;
+	if (str == NULL)
+		return (0);
 	while (str[i])
 	{
 		if (str[i] != c && what == 0)
@@ -74,3 +76,16 @@ char	**ft_split(char const *s, char c)
 	result[j] = NULL;
 	return (result);
 }
+// #include <stdio.h>
+// int main ()
+// {
+// 	char *str = NULL;
+// 	char c = 'm';
+// 	char **resu = ft_split(str, c);
+// 	int i = 0;
+// 	while (resu[i])
+// 	{
+// 		printf ("%s\n", resu[i]);
+// 		i++;
+// 	}
+// }
