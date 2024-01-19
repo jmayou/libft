@@ -32,8 +32,8 @@ char	*ft_strdup(const char *s1)
 //#include <string.h>
 //#include <stdio.h>
 //
-// int main() {
-//     char *original = "Hello, World!";
-//     char *duplicate = ft_strdup(original);
-//        printf("**** %s\n", duplicate);
+//int main() {
+//    char *original = NULL;
+//    char *duplicate = ft_strdup(original);
+//       printf("**** %s\n", duplicate);
 //}

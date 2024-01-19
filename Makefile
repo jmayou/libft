@@ -14,15 +14,13 @@ AR = ar -rc
 
 all : $(NAME)
 
-$(NAME) : $(OBJ)
+$(NAME) : $(OBJ) libft.h
 	$(AR) $(NAME) $(OBJ)
 
 clean :
-	$(RM) $(OBJ) 
+	$(RM) $(OBJ)
 
 fclean : clean
 	$(RM) $(NAME)
 
 re : fclean all
-
-

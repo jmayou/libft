@@ -28,11 +28,11 @@ char	*ft_strrchr(const char *str, int c)
 //#include <stdio.h>
 //#include <string.h>
 //
-// int main() {
+//int main() {
 //	const char *str = "Hello, World!";
 //	char target = 'o';
 //
-//	char *result = ft_strrchr(str, target);
+//	char *result = ft_strrchr(NULL, target);
 //
 //	printf ("%s\n", result);
 //	return (0);

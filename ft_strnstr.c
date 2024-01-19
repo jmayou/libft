@@ -20,7 +20,7 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t n)
 
 	i = 0;
 	j = 0;
-	if ((s2[0] == '\0') || (s1 == s2))
+	if ((s2[0] == '\0'))
 		return ((char *)s1);
 	while (i < n && s1[i])
 	{
@@ -38,13 +38,13 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t n)
 	return (NULL);
 }
 
-//#include <stdio.h>
-//#include <string.h>
-//
+// #include <stdio.h>
+// #include <string.h>
+
 // int main ()
-//{
-//	char *str = "oh no not the empty";
-//
-//	printf ("%s\n", ft_strnstr(str, str, 7));
-//	printf ("%s\n", strnstr(str, str, 7));
-//}
+// {
+// 	char *str = "oh no not the empty";
+
+// 	printf ("%s\n", ft_strnstr(str, "no", 7));
+// 	printf ("%s\n", strnstr(str, "no", 7));
+// }
