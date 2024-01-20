@@ -61,12 +61,10 @@ char	*ft_itoa(int num)
 	return (result);
 }
 
-//#include <limits.h>
-//#include <stdio.h>
-//
+// #include <limits.h>
+// #include <stdio.h>
 // int main ()
-//{
-//	int i = INT_MIN;
-//
-//	printf ("%s\n", ft_itoa(i));
-//}
+// {
+// 	int i = ;
+// 	printf ("%s\n", ft_itoa(i));
+// }

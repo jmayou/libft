@@ -19,19 +19,17 @@ void	*ft_memchr(const void *str, int c, size_t n)
 	i = 0;
 	while (i < n)
 	{
-		if (((char *)str)[i] == (char)c)
+		if (((unsigned char *)str)[i] == (unsigned char)c)
 			return ((void *)str + i);
 		i++;
 	}
 	return (0);
 }
-//#include <stdio.h>
-//#include <string.h>
-//
+// #include <stdio.h>
+// #include <string.h>
 // int	main(void)
-//{
-//
-//	printf("%s\n", ft_memchr("jamila mayou", 'i', 5));
-//	printf("%s\n", memchr("jamila mayou", 'i', 5));
-//	return (0);
-//}
+// {
+// 	printf("%s\n", ft_memchr("jamila mayou", 'i', 5));
+// 	printf("%s\n", memchr("jamila mayou", 'i', 5));
+// 	return (0);
+// }
