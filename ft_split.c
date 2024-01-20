@@ -77,15 +77,15 @@ char	**ft_split(char const *s, char c)
 	return (result);
 }
 // #include <stdio.h>
-// int main ()
+// int main()
 // {
-// 	char *str = NULL;
-// 	char c = 'm';
-// 	char **resu = ft_split(str, c);
-// 	int i = 0;
+// 	char str[] = "jankanlanhgnkh";
+// 	char c ='n';
+// 	char **resu = ft_split(str , c);
+// 	int i =  0;
 // 	while (resu[i])
 // 	{
-// 		printf ("%s\n", resu[i]);
+// 		printf("%s\n", resu[i]);
 // 		i++;
 // 	}
 // }
